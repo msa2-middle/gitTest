@@ -48,6 +48,7 @@ Thumbs.db
 .env
 *.properties.local
 *.yml.local
+application.*
 
 # 기타
 node_modules/
