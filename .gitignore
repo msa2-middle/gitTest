@@ -1,0 +1,53 @@
+/.metadata/
+# ==========================================
+# Java & Build Tools
+# ==========================================
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+/logs
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+tmp/
+
+# VSCode (간혹 Java 플러그인 개발 시 사용)
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# 환경 설정 파일
+.env
+*.properties.local
+*.yml.local
+
+# 기타
+node_modules/
